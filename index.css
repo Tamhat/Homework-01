@@ -1118,7 +1118,8 @@ footer {
     .one{
         position:relative;
         left:50px;
-        transform:translate(-0% -700%);        justify-content: center;
+        transform:translate(-0% -700%);   
+        justify-content: center;
         align-items: center;
         justify-content: center;
     }
@@ -1129,5 +1130,7 @@ footer {
     .chanell1 p{
         width:300px;
     }
-    
+    body{
+        overflow: visible;
+    }
 }
