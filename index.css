@@ -879,6 +879,9 @@ footer {
     background-color: #000000;
     display: block;
 }
+body{
+    overflow-x:hidden;
+}
 
 @media (max-width:898px) {
     header {
@@ -1165,8 +1168,5 @@ footer {
     .chanell1 p {
         width: 300px;
     }
-    body{
-        overflow-x:hidden;
-    }
-
+    
 }
