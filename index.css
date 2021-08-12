@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
 
 .top2 nav {
@@ -74,11 +74,12 @@
 }
 
 .top2 nav ul li {
-    padding:0 10px ;
-    margin:0 .5%
+    padding: 0 10px;
+    margin: 0 .5%
 }
-.top2 nav ul li:hover{
-    color:#000000
+
+.top2 nav ul li:hover {
+    color: #000000
 }
 
 .top2 button {
@@ -266,7 +267,7 @@
     align-items: center;
     justify-content: center;
     background-color: #83c4ff;
-    
+
 }
 
 .ser1,
@@ -634,7 +635,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
 }
 
 .chanell1 {
@@ -669,13 +670,13 @@
 }
 
 .tv li {
-    float:left;
+    float: left;
     display: block;
     margin: 0 25px;
 }
 
 .tv label {
-    display:block;
+    display: block;
     padding: 30px 100px;
     align-items: center;
     justify-content: center;
@@ -683,7 +684,7 @@
     cursor: pointer;
     font-weight: bolder;
     font-size: 20px;
-    
+
 }
 
 .chanell {
@@ -699,7 +700,7 @@
 }
 
 .tv [id^=tv]:checked~.chanell {
-    display:flex;
+    display: flex;
 }
 
 .section {
@@ -720,8 +721,8 @@
 }
 
 .school h1 {
-    font-size:40px;
-    font-weight:500;
+    font-size: 40px;
+    font-weight: 500;
     font-family: 'Sofia Pro', sans-serif;
     margin-bottom: 50px;
     margin-left: -880px;
@@ -781,7 +782,7 @@
 
 .imgine1 {
     background: linear-gradient(rgba(84, 166, 243, 0.507), rgba(84, 166, 243, 0.5)), url(img/img17.webp) no-repeat;
-    width:50%;
+    width: 50%;
     height: 236px;
     display: flex;
     align-items: center;
@@ -790,7 +791,7 @@
 
 .imgine2 {
     background: linear-gradient(to right, rgba(3, 120, 255, 0.787), rgba(3, 120, 255, 0.5)), url(img/img18.webp) no-repeat;
-    width:50%;
+    width: 50%;
     height: 236px;
     display: flex;
     align-items: center;
@@ -856,10 +857,12 @@ footer {
     margin: 100px 50px;
     line-height: 40px
 }
-.foo li a:hover{
-    color:#5db2ff
+
+.foo li a:hover {
+    color: #5db2ff
 }
-.foo li a{
+
+.foo li a {
     transition: 0.5s;
 }
 
@@ -880,6 +883,7 @@ footer {
 @media (max-width:898px) {
     header {
         width: 100%;
+        
     }
 
     .checkbtn {
@@ -912,79 +916,94 @@ footer {
         top: 54px;
         left: -500%
     }
+
     header nav ul li {
         line-height: 50px;
         clear: both;
         font-size: 20px;
     }
-    .bgtop{
-        height:700px;
-        width:100%
-        
+
+    .bgtop {
+        height: 700px;
+        width: 100%
     }
-    #check:checked~ul{
-        left:0
+
+    #check:checked~ul {
+        left: 0
     }
-    .mate{
-        margin-right:15%
+
+    .mate {
+        margin-right: 15%
     }
-    .container h3 span{
-        font-size:55px
+
+    .container h3 span {
+        font-size: 55px
     }
-    .container h3{
-        font-size:40px
+
+    .container h3 {
+        font-size: 40px
     }
-    .main{
-    display:block;
-    margin-bottom:0px;
-    height:auto;
-    padding:10px;
+
+    .main {
+        display: block;
+        margin-bottom: 0px;
+        height: auto;
+        padding: 10px;
     }
-    .ser2{
-        width:100%;
-        display:flex;
+
+    .ser2 {
+        width: 100%;
+        display: flex;
         flex-wrap: wrap;
-        padding-left:20px
+        padding-left: 20px
     }
-    .ser1{
+
+    .ser1 {
         right: 25px;
-        position:relative
+        position: relative
     }
-    #ser22{
+
+    #ser22 {
         margin: 0 45px;
-        width:100%
-        
+        width: 100%
     }
-    #ser11,#ser22,#ser33{
+
+    #ser11,
+    #ser22,
+    #ser33 {
         padding: 24px;
         right: 60px;
-        position:relative
+        position: relative
     }
-    .tree{
-        display:block;
+
+    .tree {
+        display: block;
         margin-bottom: 650px;
 
     }
-    .tree img{
-        margin:0 auto;
-    }
-    #ing{
-        margin:0 auto;
-        width:350px;
+
+    .tree img {
+        margin: 0 auto;
     }
 
-    .school{
-        margin-bottom:500px;
-        margin-top:1600px ;
+    #ing {
+        margin: 0 auto;
+        width: 350px;
     }
-    .school h1{
+
+    .school {
+        margin-bottom: 500px;
+        margin-top: 1600px;
+    }
+
+    .school h1 {
         position: relative;
-        bottom:35px;
-        font-size:35px;
-        border-bottom:2px solid #5db2ff;
-        margin:auto auto;
+        bottom: 35px;
+        font-size: 35px;
+        border-bottom: 2px solid #5db2ff;
+        margin: auto auto;
     }
-    
+
     .chanell {
         width: 100%;
         height: 100vh;
@@ -993,54 +1012,55 @@ footer {
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top:210px;
+        margin-top: 210px;
     }
-    
+
     .chanell1 {
-        margin:0 0;
-        margin-bottom:50px;
-        width:75%
+        margin: 0 0;
+        margin-bottom: 50px;
+        width: 75%
     }
-    
+
     #chanell1 {
         position: relative;
         left: 50px;
         word-wrap: break-word;
     }
-    #imo img{
-        width:96%;
-        margin-left:35px;
+
+    #imo img {
+        width: 96%;
+        margin-left: 35px;
     }
-    
+
     #chanell1 h3 {
         margin-bottom: 10px;
         font-weight: 500;
         font-family: 'Sofia Pro', sans-serif;
         font-size: 25px;
-        color: rgb(63, 62, 62);   
+        color: rgb(63, 62, 62);
     }
-    
+
     .tv {
         width: 100%;
         list-style: none;
         position: relative;
-        
+
     }
-    
+
     .tv input[type="radio"] {
         position: absolute;
         left: -90px;
-    
+
     }
-    
+
     .tv li {
-        float:left;
+        float: left;
         display: block;
         margin: 0 40px;
     }
-    
+
     .tv label {
-        display:block;
+        display: block;
         padding: 30px 100px;
         align-items: center;
         justify-content: center;
@@ -1048,9 +1068,9 @@ footer {
         cursor: pointer;
         font-weight: bolder;
         font-size: 20px;
-        
+
     }
-    
+
     .chanell {
         position: absolute;
         border-radius: 0 3px 3px 3px;
@@ -1058,77 +1078,95 @@ footer {
         width: 100%;
         display: none;
     }
-    
+
     .tv [id^=tv]:checked+label {
         background-color: rgb(255, 255, 255);
     }
-    
+
     .tv [id^=tv]:checked~.chanell {
-        display:block;
-        border-bottom:1px solid gray;
+        display: block;
+        border-bottom: 1px solid gray;
     }
-    
+
     .section {
         background-color: #f5fbff;
         position: absolute;
         width: 100%;
     }
-    .tv li h5{
-        margin-right:40px;
+
+    .tv li h5 {
+        margin-right: 40px;
     }
-    .imgine{
-        display:block;
+
+    .imgine {
+        display: block;
     }
-    .imgine1{
-        width:100%;
-        background-size:cover;
+
+    .imgine1 {
+        width: 100%;
+        background-size: cover;
         background-position: center center;
     }
-    .imgine2{
-        width:100%;
+
+    .imgine2 {
+        width: 100%;
     }
-    footer{
-        background-color:rgb(19, 18, 18);
-        height:100% ;
-        
+
+    footer {
+        background-color: rgb(19, 18, 18);
+        height: 100%;
+
     }
-    .foot{
+
+    .foot {
         display: block;
-        padding:50px;
+        padding: 50px;
     }
-    .foo{
-        margin:30px auto;
+
+    .foo {
+        margin: 30px auto;
     }
-    .class1{
-        margin-bottom:30px;
+
+    .class1 {
+        margin-bottom: 30px;
     }
-    .foo li a:hover{
-    color:#5db2ff
+
+    .foo li a:hover {
+        color: #5db2ff
     }
-    .foo li a{
-        font-size:18px;
+
+    .foo li a {
+        font-size: 18px;
         transition: 0.5s;
     }
-    .child{
-        margin:10px auto
+
+    .child {
+        margin: 10px auto
     }
-    .top1{
-        display:block
+
+    .top1 {
+        display: block
     }
-    .one{
-        position:relative;
-        left:50px;
-        transform:translate(-0% -700%);   
+
+    .one {
+        position: relative;
+        left: 50px;
+        transform: translate(-0% -700%);
         justify-content: center;
         align-items: center;
         justify-content: center;
     }
-    .two{
+
+    .two {
         justify-content: center;
-        margin-top:10px;
+        margin-top: 10px;
     }
-    .chanell1 p{
-        width:300px;
+
+    .chanell1 p {
+        width: 300px;
     }
-    
+    body{
+        overflow-x:hidden;
+    }
+
 }
